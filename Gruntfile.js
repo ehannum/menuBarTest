@@ -6,7 +6,10 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: [
-          'src/menuBarTest.js'
+          'src/menuTest.js',
+          'src/controllers/menuController.js',
+          'src/controllers/menuButtonController.js',
+          'src/directives/menuButtonDirective.js'
         ],
         dest: 'public/src/build.js'
       }

@@ -1,5 +1,6 @@
 node_modules
 .sass-cache
+package-lock.json
 public/src/build.js
 public/res/*.css
 public/res/*.map
