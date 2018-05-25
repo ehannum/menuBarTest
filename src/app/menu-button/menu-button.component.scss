@@ -1,0 +1,13 @@
+.selector {
+  padding: 5px;
+  width: 26px;
+  height: 26px;
+  background: #CCC;
+  text-align: center;
+
+  transition: background 0.05s linear;
+
+  &.selected {
+    background: #888;
+  }
+}

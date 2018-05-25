@@ -1,0 +1,5 @@
+<div (click)="buttonClick()" class="menu-button">
+  <div class="selector" [ngClass]="{selected: isSelected(this.$id)}">
+    <i class="fas fa-{{icon}}" title="{{name}}"></i>
+  </div>
+</div>
